@@ -1,0 +1,111 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.step1 img{
+    height: 70vh;
+    width: 100vw;
+    object-fit: cover;
+    
+}
+
+.Content1{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.Content1 button{
+    border: 1.5px solid#e0d7d7;
+    background: white;;
+    height: 10vw;
+    border-radius: 5px;
+}
+
+.Content1 button select{
+    border:1px;
+   margin-left:60vw;
+   color: #e0d7d7;
+   background: white; 
+}
+
+.nxt button{
+    border:10px;
+     border-radius: 5px; 
+    font-size:medium;
+    color: azure;
+    background: #072AC8;
+    height: 45px; 
+    width: 90px;
+}
+
+                                            /*###### MEDIA QUERY ######## */
+
+                                            /*#### TABLET  #####*/
+@media all and (min-width:768px){
+   .parent1{
+       display: flex;
+   }
+
+   .Content1{
+    margin-top: 40px;
+    padding: 40px;
+   }
+   .Content1 button{
+      height:5vw;
+   }
+
+   .step1 img{
+        height: 85vw;
+        width: 30vw;
+    }
+
+    .Content1 button select{
+        margin-left: 40vw;
+    }
+    
+    .nxt button{
+        height: 5vw;
+    }
+
+}
+
+                                            /*#### LAPTOP ####*/
+
+@media all and (min-width:1024px){
+
+    .Content1{
+      margin-top: 5px;
+      margin-left: 10vw;
+      margin-top: 3vw;
+    }
+
+    .Content1 button{
+        width: 50vw;
+    }
+    .step1 img{
+        height: 73vw;
+        width: 25vw;
+    }
+    
+    .Content1 button select{
+        margin-left: 43vw;
+        
+    }
+
+    .nxt button{
+        height: 4vw;
+        width: 10vw;
+    }
+
+
+}

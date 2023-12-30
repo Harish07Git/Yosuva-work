@@ -1,0 +1,140 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.step1 img{
+    height: 70vh;
+    width: 100vw;
+    object-fit: cover;
+    
+}
+
+.Content1{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.Content1 button{
+    border: 1.5px solid#e0d7d7;
+    background: white;;
+    width: 90%;
+    height: 10vw;
+    border-radius: 5px;
+    text-align: start;
+    padding: 10px;
+}
+
+.Content1 button select{
+    border:1px;
+   text-align: left;
+   color: #e0d7d7;
+   background: white;
+   margin-left: 170px;
+    
+}
+
+.nxt button{
+    border: 10px;
+     border-radius: 5px; 
+    font-size:medium;
+    color: azure;
+    background: #072AC8;
+    height: 45px; 
+    width: 90px;
+}
+
+.back button{
+    border:  10px;
+    height: 45px; 
+    width: 90px;
+    border:10px;
+    border-radius: 5px; 
+   font-size:medium;
+}
+
+.jumpers{
+    display: flex;
+    justify-content: space-between;
+}
+                                            /*###### MEDIA QUERY ######## */
+
+                                            /*#### TABLET  #####*/
+@media all and (min-width:768px){
+   .parent1{
+       display: flex;
+   }
+
+   .Content1{
+    margin-top: 0px;
+    padding: 50px;
+   }
+
+   .Content1 button{
+    height: 7vw;
+    width: 70vw;
+   }
+
+   .step1 img{
+        height: 90vw;
+        width: 40vw;
+        object-fit: fill;
+    }
+
+    .Content1 button select{
+        margin-left: 60vw;
+
+    }
+   
+    .nxt button{
+        height: 5vw;
+        margin-top: 1vw;
+        margin-left: 28vw;
+        
+    }
+      
+    .jumpers button{
+       height: 7vh;
+       width: 10vw;
+    }
+}
+
+                                            /*#### LAPTOP ####*/
+
+@media all and (min-width:1024px){
+
+    .Content1{
+      padding: 90px;       
+    }
+
+    .Content1 button{
+        height: 5vw;
+        width: 50vw;
+        color: #e0d7d7;
+    }
+    .step1 img{
+        height: 75vw;
+        width: 30vw;
+        object-fit: fill;
+    }
+    
+    .Content1 button select{
+        margin-left: 40vw;
+        
+    }
+
+ .jumpers button{
+    height: 7vh;
+    width: 10vw;
+ }
+
+}

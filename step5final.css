@@ -1,0 +1,103 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.step1 img{
+    height: 70vh;
+    width: 100vw;
+    object-fit: cover;
+    
+}
+
+.Final img{
+    height: 30vh;
+    width: 50vw;
+}
+.Final{
+    margin-top: 5vh;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nxt button{
+    border: 10px;
+     border-radius: 5px; 
+    font-size:medium;
+    color: azure;
+    background: #072AC8;
+    height: 45px; 
+    width: 90px;
+
+}
+                                           /*###### MEDIA QUERY ######## */
+
+                                            /*#### TABLET  #####*/
+@media all and (min-width:768px){
+   .parent1{
+       display: flex;
+   }
+
+   .Final img{
+    height: 30vh;
+    width: 35vw;
+}
+.Final{
+    margin-top: 5vh;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+   .step1 img{
+        height: 90vw;
+        width: 40vw;
+        object-fit: fill;
+    }
+
+   
+    .nxt button{
+        margin-top: 1vw;
+        
+    }
+}
+
+                                            /*#### LAPTOP ####*/
+
+@media all and (min-width:1024px){
+
+
+    .step1 img{
+        height: 75vw;
+        width: 30vw;
+        object-fit: fill;
+    }
+    
+    .Final img{
+        height: 50vh;
+        width: 30vw;
+    }
+    .Final{
+        margin-top: 0%;
+       margin-left: 10vw;
+       text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
